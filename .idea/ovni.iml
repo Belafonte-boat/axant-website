@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="CompassSettings">
+    <option name="compassExecutableFilePath" value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@middleman/gems/compass-0.12.6/bin/compass" />
+    <option name="compassSupportEnabled" value="true" />
+    <option name="importPaths">
+      <list>
+        <option value="$USER_HOME$/.compass/extensions/readme.txt/stylesheets" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@middleman/gems/compass-0.12.6/frameworks/blueprint/stylesheets" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@middleman/gems/compass-0.12.6/frameworks/compass/stylesheets" />
+      </list>
+    </option>
+  </component>
+  <component name="ModuleRunConfigurationManager">
+    <configuration default="false" name="Server" type="CommandRunConfigurationType" factoryName="Gem Command" singleton="true">
+      <module name="ovni" />
+      <COMMAND_RUN_CONFIGURATION NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <COMMAND_RUN_CONFIGURATION NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <COMMAND_RUN_CONFIGURATION NAME="SHOULD_USE_SDK" VALUE="false" />
+      <COMMAND_RUN_CONFIGURATION NAME="ALTERN_SDK_NAME" VALUE="" />
+      <COMMAND_RUN_CONFIGURATION NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="GEM_NAME" VALUE="middleman" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_NAME" VALUE="middleman" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_ARGS" VALUE="server" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="WORKING_DIR" VALUE="server" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build" type="CommandRunConfigurationType" factoryName="Gem Command" singleton="true">
+      <module name="ovni" />
+      <COMMAND_RUN_CONFIGURATION NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <COMMAND_RUN_CONFIGURATION NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <COMMAND_RUN_CONFIGURATION NAME="SHOULD_USE_SDK" VALUE="false" />
+      <COMMAND_RUN_CONFIGURATION NAME="ALTERN_SDK_NAME" VALUE="" />
+      <COMMAND_RUN_CONFIGURATION NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="GEM_NAME" VALUE="middleman" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_NAME" VALUE="middleman" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_ARGS" VALUE="build" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="WORKING_DIR" VALUE="build" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Deploy" type="CommandRunConfigurationType" factoryName="Gem Command" singleton="true">
+      <module name="ovni" />
+      <COMMAND_RUN_CONFIGURATION NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <COMMAND_RUN_CONFIGURATION NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <COMMAND_RUN_CONFIGURATION NAME="SHOULD_USE_SDK" VALUE="false" />
+      <COMMAND_RUN_CONFIGURATION NAME="ALTERN_SDK_NAME" VALUE="" />
+      <COMMAND_RUN_CONFIGURATION NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="GEM_NAME" VALUE="middleman" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_NAME" VALUE="middleman" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_ARGS" VALUE="deploy" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="WORKING_DIR" VALUE="deploy" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Update" type="CommandRunConfigurationType" factoryName="Gem Command">
+      <module name="ovni" />
+      <COMMAND_RUN_CONFIGURATION NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <COMMAND_RUN_CONFIGURATION NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <COMMAND_RUN_CONFIGURATION NAME="SHOULD_USE_SDK" VALUE="false" />
+      <COMMAND_RUN_CONFIGURATION NAME="ALTERN_SDK_NAME" VALUE="" />
+      <COMMAND_RUN_CONFIGURATION NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="GEM_NAME" VALUE="bundler" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_NAME" VALUE="bundle" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="EXECUTABLE_ARGS" VALUE="update" />
+      <COMMAND_CONFIG_SETTINGS_ID NAME="WORKING_DIR" VALUE="update" />
+      <method />
+    </configuration>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.1.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.6.3, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="chunky_png (v1.3.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.7.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="compass (v0.12.6, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="compass-h5bp (v0.1.2, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="compass-import-once (v1.0.4, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="compass-sourcemaps (v0.12.3.sourcemaps.a4836f1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="docile (v1.1.5, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="em-websocket (v0.5.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="eventmachine (v1.0.3, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="execjs (v2.2.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="exifr (v1.1.3, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="favicon_maker (v1.3, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.3, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="font-awesome-middleman (v4.1.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fspath (v2.0.6, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fssm (v0.2.10, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="haml (v4.0.5, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="hooks (v0.4.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="htmlcompressor (v0.1.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="http_parser.rb (v0.6.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.9, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="image_optim (v0.9.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="image_size (v1.1.5, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="in_threads (v1.2.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v1.8.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="kramdown (v1.4.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="libv8 (v3.16.14.3, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="listen (v1.3.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="middleman (v3.3.3, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="middleman-bower (v1.0.2, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="middleman-core (v3.3.3, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="middleman-deploy (v0.2.4, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="middleman-favicon-maker (v3.7, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="middleman-imageoptim (v0.1.4, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="middleman-livereload (v3.3.4, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="middleman-minify-html (v3.4.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="middleman-sprockets (v3.3.3, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.3.5, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.10.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="net-sftp (v2.1.2, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="net-ssh (v2.9.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="oily_png (v1.1.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="oj (v2.9.7, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="padrino-helpers (v0.12.2, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="padrino-support (v0.12.2, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="progress (v3.0.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ptools (v1.2.4, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack (v1.5.2, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-livereload (v0.3.15, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.2, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rb-fsevent (v0.9.4, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rb-inotify (v0.9.5, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rb-kqueue (v0.2.3, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ref (v1.0.5, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.19, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.12.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sprockets-bower (v0.0.2, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sprockets-helpers (v1.1.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sprockets-sass (v1.1.0, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="susy (v1.0.9, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="therubyracer (v0.12.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="thor (v0.19.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.4, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tilt (v1.4.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="uber (v0.0.6, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.5.1, RVM: ruby-2.0.0-p247 [middleman]) [gem]" level="application" />
+  </component>
+  <component name="RModuleSettingsStorage">
+    <LOAD_PATH number="0" />
+    <I18N_FOLDERS number="1" string0="$MODULE_DIR$/locales" />
+  </component>
+</module>
+

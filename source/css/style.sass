@@ -1,0 +1,141 @@
+//=require pikabu/build/pikabu
+
+@import compass/utilities/sprites
+@import compass/typography
+@import h5bp
+@import susy
+@import compass/typography/vertical_rhythm
+@import compass/support
+@import compass/css3
+@import compass/layout/stretching
+
+
++h5bp-normalize
++establish-baseline
+
+$legacy-support-for-ie: true
+
+
+@import partials/custom_mixins
+@import partials/grid
+
+@import "font-awesome"
+
+
+
+
+$dark-purple: #524556
+$extra-purple: #453a49
+$dark-brown: #3a3434
+$red: #ed1e24
+$grey: #3a3434
+$light-grey: #CECCCC
+
+*:focus
+  outline-style: none
+  outline-width: 0px
+
+
+.container
+  +container($total-columns, $break1)
+
+
+
+
+#header
+  +span-columns(10,10)
+  #logo
+    +span-columns(10,10)
+    display: inline-block
+    img
+      margin: 40px auto 0 auto
+      width: image_width("axant_web_logo.png")
+      height: image_width("axant_web_logo.png")
+      display: block
+
+    span.logo
+      font-size: px-to-em(34px,16px)
+      font-family: 'Lato', sans-serif
+      font-weight: 900
+      display: block
+      line-height: normal
+      text-align: center
+      +span-columns(8,10)
+      letter-spacing: 2px
+      margin-bottom: 0px
+      +pre(1)
+      display: inline-block
+
+  #claim
+    font-size: px-to-em(16px,16px)
+    font-family: 'Roboto', sans-serif
+    font-weight: 300
+    color: $dark-purple
+    display: block
+    text-align: center
+    letter-spacing: 2px
+    +span-columns(10,10)
+
+  .line
+    margin-top: 45px
+    margin-bottom: 45px
+    border-bottom: 1px solid $light-grey
+    +span-columns(4,10)
+    +pre(3)
+
+  #payoff
+    color: $red
+    font-size: px-to-em(27px,16px)
+    font-family: 'Lato', sans-serif
+    +span-columns(10,10)
+    line-height: px-to-em(22px,16px)
+    margin-bottom: 30px
+    span
+      color: $extra-purple
+
+  #statement
+    color: $dark-purple
+    font-size: px-to-em(17px,16px)
+    font-family: 'Roboto Slab', serif
+    font-weight: 300
+    +span-columns(10,10)
+
+
+#menu-wide
+  margin-top: 15px
+  a
+    i.hamburger
+      font-size: px-to-em(23px,16px)
+      color: $red
+
+
+
+.m-pikabu-sidebar
+  border-right: 1px solid $grey
+  @include box-sizing(border-box)
+  ul
+    +no-bullets
+    padding: 0
+    margin: 0
+
+    li
+      border-bottom: 1px solid $light-grey
+      height: 59px
+      text-align: center
+      &.active
+        a
+          border-bottom: 1px solid $red
+      a
+        font-size: px-to-em(18px,16px)
+        font-family: 'Roboto', sans-serif
+        letter-spacing: 1px
+        text-align: center
+
+        color: $dark-brown
+        line-height: 59px
+        text-decoration: none
+        &:hover
+          border-bottom: 1px solid $red
+
+.m-pikabu-container
+  background-color: white

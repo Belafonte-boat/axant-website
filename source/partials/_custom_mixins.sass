@@ -1,0 +1,28 @@
+=replace-with-sprite($assets, $sprite)
+  +hide-text
+  $sprite-file:  sprite-file($assets, $sprite)
+  background-position: sprite-position($assets, $sprite)
+  width: image-width( $sprite-file )
+  height: image-height( $sprite-file )
+
+@function sprite-width($assets, $sprite)
+  $sprite-file:  sprite-file($assets, $sprite)
+  @return image-width( $sprite-file )
+
+@function sprite-height($assets, $sprite)
+  $sprite-file:  sprite-file($assets, $sprite)
+  @return image-height( $sprite-file )
+
+
+
+=assign-sprite-background($assets)
+  background-image: sprite-url($assets)
+  background-repeat: no-repeat
+  display: block
+
+@function px-to-em($target, $context: $base-font-size)
+  @if $target == 0
+    @return 0
+  @return ($target / $context)+0em
+
+

@@ -1,0 +1,17 @@
+{
+  "name": "axant",
+  "version": "0.0.0",
+  "authors": [
+    "Piermaria Cosina <piermaria@belafonte.co>"
+  ],
+  "description": "theme",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ]
+}
