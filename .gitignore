@@ -1,0 +1,24 @@
+# Ignore bundler config
+/.bundle
+# Ignore the default SQLite database.
+/db/*.sqlite3
+# Ignore all log files and temp files.
+/log/*.log
+/tmp
+# Ignore other unneeded files.
+doc/
+*.swp
+*~
+.s3_sync
+.project
+.DS_Store
+/.sass-cache
+/.DS_Store
+/build
+.icon
+
+/components
+
+/.idea/*.iws
+/.idea/workspace.xml
+/.idea/tasks.xml
