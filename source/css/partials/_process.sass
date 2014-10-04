@@ -1,0 +1,58 @@
+#process
+  +span-columns(10,10)
+  .viewer
+    width: 100%
+    overflow-x: scroll
+  img.process
+    height: 400px
+    width: auto
+  #steps
+    +span-columns(10,10)
+    ul
+      //+horizontal-list-container
+      +no-bullets
+      +span-columns(10,10)
+      padding: 0
+      li
+        //+horizontal-list-item
+        +span-columns(10,10)
+        .one
+          border-color: #330a0d
+          color: #330a0d
+        .two
+          border-color: #c64a51
+          color: #c64a51
+        .three
+          border-color: #c64a51
+          color: #c64a51
+        .four
+          border-color: #d1aeb4
+          color: #d1aeb4
+        .number
+          +span-columns(2,10)
+          
+          & > div
+            text-align: center
+            width: 36px
+            height: 36px
+            border: 1px solid
+            +border-radius(19px)
+            line-height: 36px
+            font-family: "Lato", sans-serif
+            font-weight: bold
+            font-size: px-to-em(14px,16px)
+            
+        .content
+          +span-columns(8 omega,10)
+          h3
+            margin-top: 7px
+            margin-bottom: 0
+            font-family: "Lato", sans-serif
+            font-weight: bold
+            font-size: px-to-em(14px,16px)
+          p
+            margin-top: 5px
+            font-family: "Roboto Slab", serif
+            font-weight: normal
+            font-size: px-to-em(14px,16px)
+          
